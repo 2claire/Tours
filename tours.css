@@ -1,0 +1,186 @@
+body{
+    background-color: rgb(199, 198, 198);
+}
+.tours{
+    background-image:url("https://i1.wp.com/explorerswild.com/wp-content/uploads/2017/10/Safari-Kenya-min.jpg?resize=1220%2C550&ssl=1");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    position: relative;
+    
+
+}
+.explore{
+    margin-left:30px;
+
+}
+.explore h1{
+    text-shadow: 2px ;
+    font-size: 39px;
+
+}
+.explore h1 span{
+    text-shadow: 2px ;
+    font-size: 30px;
+    color: white;
+
+}
+#navbar{
+    width: 50%;
+    padding: 15px;
+
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#navbar ul li a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+#navbar ul li a:hover{
+    color: white;
+    font-weight:bold;
+}
+.button{
+    padding: 20px;
+}
+.button input{
+    height: 25px;
+    border: 2px solid white;
+    background: transparent;
+    padding: 2px;
+    float: left;
+   
+    
+}
+.button input:focus{
+    outline: none;
+
+}
+.button button{
+    background-color: white;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 33px;
+    padding: 2px;
+    width: 70px;
+
+}
+.button button a{
+    text-decoration: none;
+    font-size: larger;
+    color: black;
+}
+.kenya{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 600px;
+    position: absolute;
+    bottom: 300px;
+
+}
+.kenya h1{
+    padding-left: 10px;
+    color: whitesmoke;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.kenya p{
+    padding-left: 20px;
+    color: azure;
+    font-size: x-large;
+}
+.all{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    position: absolute;
+    bottom: -230px;
+    right: 20px;
+    left: 20px;
+}
+.one{
+    border-radius: 10px;
+    background-color:rgb(197, 189, 178);
+    width: 350px;
+    height: 400px;
+}
+.one img{
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.one h1{
+    padding-left: 20px;
+    color: rgb(197, 143, 81);
+}
+.one p{
+    padding: 20px;
+    color: whitesmoke;
+}
+.two{
+    border-radius: 10px;
+    background-color:rgb(197, 189, 178);
+    width: 350px;
+    height: 400px;
+}
+.two img{
+    padding-left: 28px;
+    padding-top: 10px;
+}
+.two h1{
+    color: rgb(197, 143, 81);
+}
+.two p{
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.three{
+    border-radius: 10px;
+    background-color:rgb(197, 189, 178);
+    width: 350px;
+    height: 400px;
+}
+.three img{
+    padding-left: 28px;
+    padding-top: 10px;
+
+}
+.three h1{
+    color: rgb(197, 143, 81);
+}
+.three p{
+    padding: 20px;
+    color: whitesmoke;
+}
+.four{
+    border-radius: 10px;
+    background-color:rgb(197, 189, 178);
+    width: 350px;
+    height: 400px;
+}
+.four img{
+    padding-left: 34px;
+    padding-top: 10px;
+}
+.four h1{
+    color: rgb(197, 143, 81);
+}
+.four p{
+    padding: 20px;
+    color: whitesmoke;
+}
